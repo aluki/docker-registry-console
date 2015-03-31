@@ -9,4 +9,4 @@ ENV DOCKER_HUB_USER USER_NAME
 ENV DOCKER_HUB_PASSWORD PASSWORD
 RUN npm install
 RUN bower install --allow-root
-CMD npm start
+CMD ["npm", "start"]
